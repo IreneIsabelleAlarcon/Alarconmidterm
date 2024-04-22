@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RENE'S WEBSITE PORTFOLIO</title>  
+    <link rel="icon" href="ICON.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home  </a></li>
+                <li><a class="active" href="#about-section" onclick="scrollToAbout()"><i class="fa fa-fw fa-user"></i> About </a></li>
+                <li><a class="active" href="#contact-section" onclick="scrollToContact()"><i class="fa fa-fw fa-envelope"></i> Contact </a></li>
+                <li><a class="active" href="#works-section" onclick="scrollToWorks()"><i class="fa fa-fw fa-book"></i> Works </a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="text-section col">
+                
+                <h1 id="about-section"> Hello It's me <br>IRENE ISABELLE ALARCON</h1>
+                <h1 class="second">Computer Science Student</h1>
+                <p>A first-year student at CVSU - Bacoor, has a passion for coding's puzzles and possibilities. With a knack for problem-solving, she dives into algorithms and programming languages, eager to carve her path in computer science.</p>
+                
+            </div>
+            <div class="image-section col">
+                
+                <img src="FRONT-removebg-preview.png" alt="Owner of portfolio" />
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="mt-4 p-5 text-white rounded mx-auto d-block texty "> 
+        <h1 id="works-section">Portfolio</h1>
+        <img class="img-fluid" src="coffee shop.png" class="rounded" alt="">  
+        <img class="img-fluid" src="coffee shop2.png" class="rounded" alt="">  
+        <img class="img-fluid" src="coffee shop3.png" class="rounded" alt="">
+        <h2> <a href="https://ireneisabellealarcon.github.io/Rene-s-Coffee-Shop/">Rene's Coffee Shop</a></h2>
+        <p>A website for different coffee menu.</p>
+
+        <div class="mt-4 p-5 text-white rounded mx-auto d-block texty "> 
+         
+            <img class="img-fluid" src="img1.png" class="rounded" alt="">  
+            <img class="img-fluid" src="img2.png" class="rounded" alt="">  
+            <img class="img-fluid" src="img3.png" class="rounded" alt="">
+            <h2> <a href="https://www.youtube.com/results?search_query=footer+syntax+problem">Website Project</a></h2>
+            <p>A website for different street foods menu.</p>
+
+            <div class="mt-4 p-5 text-white rounded mx-auto d-block texty "> 
+              
+                <img class="img-fluid" src="img4.png" class="rounded" alt="">  
+                <img class="img-fluid" src="img5.png" class="rounded" alt="">  
+                <img class="img-fluid" src="img6.png" class="rounded" alt="">
+                <h2> <a href="https://www.youtube.com/results?search_query=footer+syntax+problem">Website Project</a></h2>
+                <p>A short story website for kids.</p>
+            </div> 
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer id="contact-section">
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/ireneisabellealarcon"><i class="fab fa-facebook"></i> Irene Isabelle Alarcon</a> 
+                <a href="https://github.com/IreneIsabelleAlarcon"><i class="fab fa-github"></i> ireneisabellealarcon</a> 
+            </div>
+            <div class="footerBottom">
+                <br>
+                <p>Copyright &copy; 2024; Designed by <span class="designer">Irene Isabelle F. Alarcon</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToAbout() {
+            document.getElementById('about-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        function scrollToWorks() {
+            document.getElementById('works-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        function scrollToContact() {
+            document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    </script>
+</body>
+</html>

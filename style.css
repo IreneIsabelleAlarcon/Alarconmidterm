@@ -1,0 +1,201 @@
+/* Base styles */
+body {
+    background: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+nav {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(211, 15, 201, 0.315);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    margin-left: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.second{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 40px;
+    
+}
+
+p {
+    color: rgba(235, 209, 209, 0.986);
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text-section {
+    text-align: center; /* Center align the content */
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    background-color: #5f074580;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid;
+}
+
+
+/* Main content styling */
+
+h2 {
+    text-align: center;
+    color: white;
+    
+}
+h2 a:hover{
+    background-color: rgb(139, 41, 139);
+}
+
+
+p {
+    color: rgba(235, 209, 209, 0.986);
+    line-height: 1.5;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+}
+
+p a {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Columns */
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Image section */
+.image-section img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+  margin-left: 10%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-section, .image-section {
+        width: 100%;
+    }
+}
+
+/*...................FOOTER ITOO........................*/
+
+a:hover {
+    background-color: rgb(105, 30, 79);
+}
+
+.footerContainer{
+	text-align: center;
+    background-color: rgba(211, 15, 201, 0.315);
+	color: white;
+	padding: 7px;
+	padding-top: 20px;
+}
+.footerContainer .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerContainer p {
+    margin: 0;
+}
+
+.socialIcons a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 18px;
+}
+.socialIcons{
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center align items horizontally */
+    gap: 10px; 
+}
+
+
+
+/*..........................COL BOOTSTRAP......................................*/
+
+.rounded {
+    background-color: rgba(18, 44, 117, 0.363);
+    text-align: center; 
+}
+
+.rounded img {
+    width: 500px; 
+    height: auto; 
+    margin: 5px; 
+}
+.texty a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.content{
+    background-color: rgba(82, 12, 78, 0.623);
+}
+
